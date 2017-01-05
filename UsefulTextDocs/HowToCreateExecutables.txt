@@ -1,0 +1,7 @@
+How to create executables
+
+https://kivy.org/docs/guide/packaging.html
+
+http://www.pyinstaller.org/
+
+https://kivy.org/docs/guide/packaging-windows.html

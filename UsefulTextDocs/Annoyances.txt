@@ -1,0 +1,5 @@
+recycleview.py must be downloaded form github and placed in C:\Python27\Lib\site-packages\kivy\uix\
+
+garden install packagename
+must be run from C:\Python27\Scripts
+

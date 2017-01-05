@@ -1,0 +1,4 @@
+Go to C:/Python27/Scripts
+Shift-Right-Click
+Open Admin
+garden install packagename

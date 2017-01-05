@@ -1,0 +1,61 @@
+Workflows::
+	
+	Imported Workflows
+		Include Ninja Flame & Gh4 & T1i (can workflows be camera/manufacturer/OS independent?)
+		Buttons (activate, edit, delete w/undo)
+	Import Wokflow
+	Create Custom Workflow
+
+
+Import::
+	Select file (.txt?)
+
+Create Custom Workflow::
+	Single-Cam or Multi-Cam
+	Sort files by (allow these paramaters to be drag-n-droped into a tree)
+		Project Name
+		Date, Month, Year
+		Camera ID (only shown if Multi-Cam)
+			Automatically advance sequentially or Manually identify cards when mounted
+				if auto, choose structure (1 CAM, camera_A, etc)
+				
+		Card #
+			Manually identify cards when mounted or use text file included on card
+		Reel #
+			automatically advance based on chosen structure (1 Reel, A, etc)
+		Other metadata
+
+Triggered upon drive insertion::
+
+	Is this a source or target?
+	Which camera is this? (only if Multi-Cam)
+
+
+Preferences::
+
+Every newly inserted drive vs. exceptions?
+Windows staratup (Mac/Linux?)
+
+More research::
+
+Use ExifTool for extracting serial number
+Copies of footage with different LUTs
+Syncthing for syncing (command line, open source, MPL2.0???)
+Unison (http://www.cis.upenn.edu/~bcpierce/unison/)
+Change Folder logos (http://codefromabove.com/2015/03/programmatically-adding-an-icon-to-a-folder-or-file/)
+Black border around active item (Cadance highlights buttons that will be activated if return is pressed)
+Add tiny text to buttons for keyboard shortcuts
+
+create new def function
+
+if 0 read progress
+if 1 update progress+4
+
+Start with 1 camera from 1 company
+Things we need to figure out:
+	Will cameras reformat all drives/partitions?
+
+Abandoned Features::
+	Manually ID camera on first card mount and then use that ID everytime a card is inserted with the same metadata. Problem: EXIF data is inconsistant. Try using ExifTool and/or MediaInfo.
+
+	Copy (Everything, Specific File Types) Problem: liability for missreading/not copying data. Just copy everything
